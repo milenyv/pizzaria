@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --cor-primaria: #003F00;
+    --cor-sugundaria: #250802;
+    --cor-terciaria: #808E01;
+    --cor-quaternaria: chocolate;
+
+}
+
+header{
+    background-color: var(--cor-primaria);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 20vh;
+}
+
+#plogo{
+    height: 130px;
+    width: 130px;
+    display: flex;
+    position: fixed;
+    left: 150px;
+}
+
+.header__title{
+    font-weight: bold;
+    color: #808F01;
+    font-family: serif;
+    font-size: 65px;
+    
+}
+.header__title--laranja{
+    color: chocolate;
+}
+
+main{
+    height: 60vh;
+    display:flex ;
+    align-items: center;
+    background-image: url(../img/pizzaBackground.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-size: cover;
+   background-position: 30vw 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 280px;  
+    border: 1px black solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 25px;
+    background-color: #02432B;
+    box-shadow: 2px 2px darkgray;
+    position: relative;
+    left: 250px;
+    font-size: 35px;
+    color: white;
+    
+    
+}
+
+
+.form__input{
+    width: 280px;
+    height: 24px;
+    border-radius: 15px;
+    padding-left: 8px;
+
+}
+
+.form__btn{
+    border-radius: 20px;
+    padding: 10px 15px;  
+    background-color: rgb(182, 151, 113);
+    color: 0000;
+    border: none;
+    box-shadow: 2px 4px rgb(89, 89, 89);
+    font-size: 20px;
+}
+
+.form__btn:hover{
+    background-color: aqua;
+    color: black;
+}
+
+.form__btn--action{
+    background-color: rgb(182, 151, 113);
+}
+
+footer{
+    background-color: #003F00;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 20vh;
+    width: 100vw;
+    justify-content:  space-around;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    
+
+} 
+
+.ew__{
+    width: 10%;
+}
+
+.logo__logos{
+    align-items: center;
+    width: 20px;
+    height: 20px;
+}
