@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 100vh;
+    max-width: 1000px;
+    min-width: 375px;
+    border: 1px solid black;
+    text-align: justify;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+.cols {
+    display: flex;
+}
+
+.parceiros,
+.mkt {
+    width: 50%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+@media screen and (max-width:500px) {
+    .cols{
+        flex-direction: column;
+    }
+
+    .parceiros,
+    .mkt {
+    width: 100%;
+    }
+
+}
+
+@media print{
+
+}
